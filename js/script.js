@@ -11,7 +11,7 @@
 // }
 
 $(document).ready(function () {
-  $(".open_div").mouseover(function () {
+  $(".open_div").click(function () {
     $(this).toggleClass("active").next().slideUp("slow");
     $(".flex2").hide("slow");
     $(".flex3").hide("slow");
@@ -26,6 +26,7 @@ $(document).ready(function () {
     $(".flex4").show("slow");
     $(".flex5").show("slow");
   });
+   
 });
 
 let i = 0;
@@ -80,9 +81,4 @@ function animarLetra() {
 function voltarLetra() {
   textoZoom.style.color = "black";
   caixa.style.background = "white";
-}
-
-
-function apagarLuzes () {
-    
 }
