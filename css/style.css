@@ -6,7 +6,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   background-color: black;
-  background-image: url(/img/background.png);
+  background-image: url(../img/background.png);
 }
 
 nav.horizontalNavigation ul {
@@ -52,7 +52,7 @@ nav.horizontalNavigation ul {
 }
 
 .li-top:hover {
-  background-image: url(/img/bg3.jpg);
+  background-image: url(../img/bg3.jpg);
   background-size: cover;
   animation: opacity 3s;
 }
