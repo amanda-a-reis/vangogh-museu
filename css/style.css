@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+}
+
+nav.horizontalNavigation ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+}
+
+#li {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  z-index: 0;
+}
+
+.li-top {
+  background-color: black;
+  color: white;
+  width: 20%;
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 5px black solid;
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+#welcome {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 350px;
+  z-index: -1;
+  font-size: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.li-top:hover {
+  background-image: url(/img/bg3.jpg);
+  background-size: cover;
+  animation: opacity 3s;
+}
+
+#li:hover {
+  background-size: cover;
+  animation: bounce 2s;
+  animation-fill-mode: forwards;
+}
+
+a {
+  background-color: white;
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+  font-style: normal;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.flexbox {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.info {
+  width: 30%;
+  height: 500px;
+  text-align: justify;
+  background-color: white;
+  padding: 50px;
+}
+
+#text {
+  margin-top: 50px;
+}
+
+#img {
+  position: absolute;
+  right: 750px;
+  width: 30px;
+  height: auto;
+  z-index: -1;
+  margin-right: 200px;
+}
+
+.img2 {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  opacity: 0;
+}
+
+.top {
+  position: absolute;
+  width: 53%;
+  height: 0px;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+  right: 40px;
+}
+
+.open_div {
+  position: absolute;
+  cursor: pointer;
+  right: 400px;
+  top: -70px;
+}
+
+.hidden_div {
+  position: absolute;
+  width: 950px;
+  height: 720px;
+  top: -30px;
+  left: 90px;
+  margin-left: -150px;
+  overflow: hidden;
+  clear: both;
+  background-color: black;
+}
+
+.flex2 {
+  width: 30%;
+  position: absolute;
+  top: 170px;
+  left: 750px;
+  
+}
+
+.flex3 {
+  width: 30%;
+  position: absolute;
+  right: 100px;
+  top: 400px;
+  
+}
+
+.flex4 {
+  position: absolute;
+  right: 50px;
+  top: 600px;
+  
+}
+
+.flex5 {
+  position: absolute;
+  right: 550px;
+  top: 550px;
+  
+}
+
+#caixa {
+  width: 500px;
+  height: 50px;
+}
+
+#info {
+  position: absolute;
+  width: 420px;
+  left: 115px;
+  top: 380px;
+  left: 63px;
+  color: black;
+}
+
+#img0 {
+  margin-top: 50px;
+  z-index: 2;
+  opacity: 0.4;
+  box-shadow: 10px 5px 5px black;
+}
+
+
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes bounce2 {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(-500px);
+    }
+  }
+
+ 
