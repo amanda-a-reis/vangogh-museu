@@ -6,6 +6,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   background-color: black;
+  background-image: url(/img/background.png);
 }
 
 nav.horizontalNavigation ul {
